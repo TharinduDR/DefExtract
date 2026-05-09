@@ -5,7 +5,7 @@ from tqdm import tqdm
 from huggingface_hub import snapshot_download
 
 # ── CONFIG ──────────────────────────────────────────────
-repo_id = "tharindu/edupub-textbooks"
+repo_id = "tharindu/textbooks"
 language = "Sinhala"          # change to "English" or "Tamil" later
 ocr_lang = "sin"              # tesseract code: sin / eng / tam
 output_root = Path("/content/epub_txt")   # local path
