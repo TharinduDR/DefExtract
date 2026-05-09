@@ -6,8 +6,8 @@ from huggingface_hub import snapshot_download
 
 # ── CONFIG ──────────────────────────────────────────────
 repo_id = "tharindu/textbooks"
-language = "Tamil"          # change to "English" or "Tamil" later
-ocr_lang = "tam"              # tesseract code: sin / eng / tam
+language = "English"          # change to "English" or "Tamil" later
+ocr_lang = "eng"              # tesseract code: sin / eng / tam
 output_root = Path("/mnt/nfs/homes/ranasint/projects/DefExtract/epub_txt")   # local path
 dpi = 200
 overwrite = False             # set True to redo files that already have output
